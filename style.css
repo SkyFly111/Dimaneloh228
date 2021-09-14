@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: 'Amethysta', serif;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1270px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+padding: 25px;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 1000;
+}
+
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #515369;
+    align-items: center;
+    
+}
+
+.nav {
+    display: flex;
+font-size: 35px;
+font-weight: 700;
+text-transform: uppercase;
+
+}
+
+.nav__link {
+    margin-left: 15px;
+    color:#fff;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: opacity 0.5
+    linear;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+    opacity: 1;
+}
+
+.intro {
+    height: 750px;
+    background: url("img/Дизайн\ без\ названия\ \(2\).png")
+}
+
+.features {
+   flex-wrap: wrap;
+    display: flex;
+    margin: 55px 0;
+}
+
+.features__item {
+width: 33.33333%;
+text-align: center;
+margin: 25px 0;
+}
+.features__title {
+    margin-bottom: 15px;
+}
+
+.footer {
+
+    background-color: #4b4f54;
+}
+.footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 70px 0;
+}
+.footer__block {
+    width: 33.33333%;
+    text-align: center;
+}
+.footer__title {
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer__address {
+    color: white;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.copyright {
+    background-color: #474747;
+padding: 20px 0;
+
+
+
+}
+
+
+.copyright__text {
+    color: white;
+    font-size: 15px;
+    font-style: normal;
+    align-items: center;
+}
+
+
+
